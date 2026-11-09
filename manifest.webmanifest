@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "معمل الرياضيات الافتراضي",
+  "short_name": "معمل الرياضيات",
+  "description": "معمل الرياضيات الافتراضي للصفوف الابتدائية",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f8ff",
+  "theme_color": "#2859a5",
+  "icons": [
+    { "src": "./icons/mathlab-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./icons/mathlab-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
