@@ -1,5 +1,5 @@
-const CACHE = 'mathlab-shell-v1';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/mathlab-192.svg', './icons/mathlab-512.svg'];
+const CACHE = 'mathlab-shell-v2';
+const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/mathlab-192.png', './icons/mathlab-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));
 });
